@@ -6,7 +6,7 @@
 # See: http://doc.scrapy.org/en/latest/topics/item-pipeline.html
 import pymongo
 
-myclient = pymongo.MongoClient('mongodb://zhy:zhenghy@10.20.228.104:27017/qq_music')
+myclient = pymongo.MongoClient('mongodb://zh017/qq_music')
 mydb = myclient['qq_music']
 
 # 专辑表
